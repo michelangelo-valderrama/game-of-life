@@ -2,6 +2,9 @@
   "name": "game-of-life",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run ./main.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

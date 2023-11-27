@@ -1,15 +1,12 @@
-# game-of-life
-
-To install dependencies:
+# *Conway's Game of Life* in TypeScript
 
 ```bash
 bun install
+bun run start
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v0.6.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+| Option | Recommended value |
+| - | - |
+| Number of rows | 20 |
+| Number of cols | 20 |
+| Initial live cells | 40 |
